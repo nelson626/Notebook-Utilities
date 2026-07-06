@@ -1,3 +1,5 @@
+#!/bin/bash
+
 daily=$(date -I)
 daily+="-Daily.md"
 dir="/home/andrewn/Documents/Notes/Daily"
