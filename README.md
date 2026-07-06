@@ -18,7 +18,7 @@ Right now since there's only one utiltiy if you want to use it just clone it on 
 
 In the future I may make an install script that moves the scripts to ~/.local/bin/daily_file_maker.sh and then creates aliases in your bashrc to call them. 
 
-## Utilities List
+## Utilities List - Implemented
 
 # daily
 
@@ -29,3 +29,18 @@ alias daily="~/.local/bin/daily_file_maker.sh"
 
 Creates a daily journal entry and opens ghostwriter for you to start writing. Can be called from anywhere and will reopen the existing entry for today if there is already an entry for today. 
 
+## Utilities List - Unimplemented
+
+# topic 
+
+I was thinking a TUI would be good here that allows you to use the arrow keys to search through previous topics you have already made, and maybe can filter them based on like alphabetical order, etc... Then also if you want to make a new topic it will have an option for that as well. 
+
+# bookmarks
+
+One of the big gripes I have with reading pdfs in the browser is that I never remember where I stopped and sometimes I will open it and then close it and forget to write down my page number. I was thinking that maybe I create a TUI that allows you cycle through the books and then automatically opens them to the previous page you were on with firefox. This would be pretty easy just by calling 
+
+```
+ firefox 'file:///path/to/file.pdf#page=12'
+``` 
+
+What I dont know yet is how to automatically save the current bookmark without input. The storage and other such things could be managed easily via a txt file within the books directory that just adds a new line everytime a book is added.  
