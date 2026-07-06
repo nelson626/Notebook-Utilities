@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 daily=$(date -I)
 daily+="-Daily.md"
