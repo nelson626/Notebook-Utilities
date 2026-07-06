@@ -44,3 +44,19 @@ One of the big gripes I have with reading pdfs in the browser is that I never re
 ``` 
 
 What I dont know yet is how to automatically save the current bookmark without input. The storage and other such things could be managed easily via a txt file within the books directory that just adds a new line everytime a book is added.  
+
+I think maybe just maybe a regular command line tool may be good for this too and I just make it have options instead. So maybe a big overarching command like "journal" and some sub commands like "daily". So a call might look something like 
+
+```
+journal daily --list
+
+#or 
+
+journal bookmarks TLCL-25.12.pdf
+ 
+#or 
+
+journal topic new marketing
+```
+
+I kind of like this a bit more because I can make the commands a bit more easy to interface with. We will see. 
