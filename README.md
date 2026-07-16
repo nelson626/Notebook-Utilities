@@ -29,6 +29,15 @@ alias daily="~/.local/bin/daily_file_maker.sh"
 
 Creates a daily journal entry and opens ghostwriter for you to start writing. Can be called from anywhere and will reopen the existing entry for today if there is already an entry for today. 
 
+# pomodoro
+
+```
+~/.local/bin/pomodoro.sh
+alias pomo="~/.local/bin/pomodoro.sh &"
+```
+
+I think this only works on kde??? because of the notify-send feature specifically. So if you are using a different DE be wary. Just a basic pomodoro script that will run for 15 minutes and then notify you. It will keep sending a notification pop up until you reply yes to the terminal message to shut if off. Also calls you a stud, which is pretty cool. 
+
 ## Utilities List - Unimplemented
 
 # topic 
