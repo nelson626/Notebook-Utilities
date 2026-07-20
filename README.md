@@ -36,7 +36,7 @@ Creates a daily journal entry and opens ghostwriter for you to start writing. Ca
 alias pomo="~/.local/bin/pomodoro.sh &"
 ```
 
-I think this only works on kde??? because of the notify-send feature specifically. So if you are using a different DE be wary. Just a basic pomodoro script that will run for 15 minutes and then notify you. It will keep sending a notification pop up until you reply yes to the terminal message to shut if off. Also calls you a stud, which is pretty cool. 
+I think this only works on kde??? because of the notify-send feature specifically. So if you are using a different DE be wary. Asks you how many minutes you want to set it for. Sleeps for the amount of time you specify and then will notify you with notifications when its done and also pop up a new terminal for you to close it. 
 
 ## Utilities List - Unimplemented
 
